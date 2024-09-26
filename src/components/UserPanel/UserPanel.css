@@ -1,0 +1,110 @@
+.user-panel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.user-panel-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Styling for the form */
+.bid-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bid-form .form-group {
+    margin-bottom: 15px;
+}
+
+.bid-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bid-form .form-group input,
+.bid-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.bid-form .submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bid-form .submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the tender box */
+.tender-box {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tender-box h2 {
+    margin-bottom: 20px;
+}
+
+.tender-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tender-table th, .tender-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tender-table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.tender-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tender-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.notification {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    padding: 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below notification */
+    font-size: 16px; /* Font size */
+    position: relative; /* Positioning for the close button */
+    animation: fadeIn 0.5s ease-out, fadeOut 0.5s ease-in 4.5s; /* Fade in and out effects */
+  }
+  
